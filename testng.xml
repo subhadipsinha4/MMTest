@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.market.qa.ExtendReportListner.ExtendReporterNG" />
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/unbxd/IdeaProjects/com.website.test/src/test/java/TestNGTest2.java">
+        <classes>
+            <class name="com.market.qa.testcases.homePage_TC"/>
+            <class name="com.market.qa.testcases.search_TC"/>
+            <class name="com.market.qa.testcases.pdpPage_TC"/>
+        </classes>
+    </test>
+</suite>

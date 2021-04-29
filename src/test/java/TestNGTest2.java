@@ -15,7 +15,7 @@ public class TestNGTest2 {
     @BeforeMethod
     public void setUp()
     {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\unbxd\\IdeaProjects\\com.website.test\\target\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\MM Test\\target\\driver\\chromedriver.exe");
         driver= new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.miniaturemarket.com/");

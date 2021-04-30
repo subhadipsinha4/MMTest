@@ -30,7 +30,8 @@ public class search_TC extends BaseTest {
     }
 
     @Test(priority = 1)
-    public void testSearchBoxIsPresentOrNot() {
+    public void testSearchBoxIsPresentOrNot()
+    {
         searchpage.searchBoxIsDisplayOrNot();
     }
     @Test(priority = 2)
@@ -39,7 +40,7 @@ public class search_TC extends BaseTest {
     }
 
     @Test(priority = 3)
-    public void testSearchIconClickIsWorkingOrNot(){
+    public void testSearchIconClickIsWorkingOrNot() throws InterruptedException {
         searchpage.searchIconClickIsWorkingOrNot();
     }
     @Test(priority = 4)

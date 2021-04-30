@@ -22,7 +22,7 @@ public class BaseTest {
 
     public BaseTest() throws IOException {
         prop=new Properties();
-        FileInputStream fis=new FileInputStream("C:\\Users\\unbxd\\IdeaProjects\\com.website.test\\src\\main\\java\\com\\market\\qa\\config\\config.properties");
+        FileInputStream fis=new FileInputStream("C:\\MM Test\\src\\main\\java\\com\\market\\qa\\config\\config.properties");
         prop.load(fis);
     }
 
@@ -41,12 +41,12 @@ public class BaseTest {
         eventListener = new WebEventListener();
         e_driver.register(eventListener);
         driver = e_driver;
-
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.get(prop.getProperty("url"));
         driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_TIME,TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIME, TimeUnit.SECONDS);
+
     }
 
 }

@@ -1,0 +1,4 @@
+com\market\qa\testcases\loginPage_TC.class
+com\market\qa\testcases\search_TC.class
+com\market\qa\testcases\homePage_TC.class
+com\market\qa\testcases\pdpPage_TC.class
